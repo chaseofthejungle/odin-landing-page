@@ -1,0 +1,202 @@
+
+
+/* Everything */
+* {
+    /* border: 2px solid red; (testing the flexbox containers.) */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+  }
+
+/* Header (Navbar Menu) */
+nav {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+  
+.nav-link-div {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+  
+/* Hero Message Area */
+.hero-div {
+    display: flex;
+    margin: auto;
+    height: 500px;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.hero-main-div {
+    width: 35%;
+}
+  
+.hero-main-div p {
+    margin: 20px;
+    margin-left: 0px;
+}
+
+/* Image Divs */
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.dark-background .hero-img {
+    width: 500px;
+}
+  
+.article-img {
+    width: 200px;
+}
+
+.article-div {
+    display: flex;
+    margin: auto;
+    height: 500px;
+    width: 70%;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+/* News Article Divs */
+.article-div .news-images {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.article-div .news-header {
+    margin: 0px auto;
+}
+
+/* Testimonial Div */
+.testimonial-div {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-div div {
+    width: 50%;
+}
+
+.testimonial-div div span {
+    float: right;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+/* Call-to-Action Divs */
+.call-to-act-div div {
+    background-color: #3883f6;
+    border-radius: 10px;
+}
+  
+.call-to-act-div div strong {
+    color: white;
+    font-size: 24px;
+}
+  
+.call-to-act-div div p {
+    color: white;
+    font-size: 16px;
+}
+
+.call-to-act-div {
+    height: 300px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.call-to-act-div div {
+    display: flex;
+}
+  
+.call-to-act-div div .signup-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-act-div div div {
+    margin: 50px;
+}
+
+/* Footer */
+footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer span {
+    padding-bottom: 20px;
+}
+
+/* Sign Up Button */
+.dark-background .signup-btn {
+    border: none;
+}
+  
+.signup-btn {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;
+}
+  
+/* Text Colors */
+.dark-background .hero-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+  
+.dark-background .hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+  
+.dark-background .hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+  
+.news-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+  
+.testimonial-background .testimonial-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    opacity: 0.6;
+}
+
+/* Background Colors */
+.dark-background {
+    background-color: #1f2937;
+}
+
+.testimonial-background {
+    background-color: #e5e7eb;
+}
